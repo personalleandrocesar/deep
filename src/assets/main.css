@@ -1,0 +1,28 @@
+/* @import './base.css'; */
+@import './normalize.css';
+
+html {
+  /* background: #860d0d; background um pouco mais claro */
+  background: #860d0d;
+}
+
+body {
+  font-family: 'Philosopher', sans-serif;
+  line-height: 1.6;
+}
+
+.anima {
+  animation-direction: top;
+  animation: opacityAnimation 1s;
+
+}
+
+@keyframes opacityAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: .5s
+  }
+}
