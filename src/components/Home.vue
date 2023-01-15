@@ -12,7 +12,7 @@
     </div>
     <div class='main-two'>
         <code>
-              Tratando profundamente a raiz da doença de todos!      
+              Tratando a raiz do seu problema!      
         </code>
         <!-- <code v-else-if="Math.random() > 0.5">
               <i class="fa-solid fa-quote-left"></i> Nascer, morrer, renascer ainda, progredir sempre, tal é a lei.<br>
@@ -119,9 +119,9 @@
 
     <div class='main-four'>
       <div class='main-four-card'>
-        <a href="https://goo.gl/maps/4bbTEUKuQDbqotTG9">
+        <p>
           Rua da Conceição, 125 - Center Offices - sala: 1005 - Centro - Niterói -Rio de Janeiro - CEP: 24020-085 
-        </a>
+        </p>
       </div>
       <iframe class='body-map'
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.5096784506004!2d-43.12292232898354!3d-22.89456440314661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9983b5d0974f89%3A0xd5dcb4494da04cac!2sDeep%20Acupuntura!5e0!3m2!1spt-BR!2sbr!4v1647055905172!5m2!1spt-BR!2sbr"
@@ -893,9 +893,10 @@ code {
   padding-left: 5px;
   padding-right: 5px;
   margin-left: 30px;
+  margin-top: -10px;
   margin-right: 30px;
-  border-left: solid 5px #e23a28;
-  border-right: solid 5px #e23a28;
+  border-left: solid 4px #e23a28;
+  border-right: solid 4px #e23a28;
   color: #ddd;
 }
 
@@ -958,47 +959,27 @@ code {
 
 .main-one {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   text-align: center;
   flex-direction: row;
-  padding: 10px 0 15px 0;
   box-shadow: 0px 10px 15px #ffffff10;
   background: #860d0d;
 }
 
 .main-one a i {
-  font-size: 30px;
-  padding: 0 40px ;
-}
-
-.main-one div {
-  margin: 0 0 0 15px;
-}
-
-.main-one a:nth-child(1) i,
-.main-one a:nth-child(2) i {
-  padding-right: 3px;
-  margin: 0 0 0 3px;
-}
-
-.main-one a:nth-child(2) i {
-  padding-right: 4px;
-  margin: 0 0 0 4px;
-}
-
-.main-one a:nth-child(3) i {
-  margin: 0 0 0 3px;
-  padding-right: 2px;
-}
-
-.main-one a:nth-child(4) i {
-  margin: 0 0 0 5px;
-  padding-right: 2px;
+  display: block;
+  font-size: 18px;
 }
 
 .main-one a {
-  margin: 0 0 0 10px;
   color: #ddd;
+  border: solid .1px #ffffff70;
+  padding: 8px  15px;
+  border-radius: 5% 4% 15%;
+  transition: all .3s linear;
+}
+.main-one a:hover {
+  background-color: #d8d8d840;
 }
 
 .main-two {
