@@ -1,35 +1,36 @@
 <template>
   <div>
-    
+
     <div class='profile'>
       <img src='../assets/img/MyLogoBold.svg' alt=''>
 
       <div>
         <h1>Deep Acupuntura</h1>
-        <h4>| Clinica de Medicina Chinesa | </h4>
+        <h4>Clinica de Medicina Chinesa</h4>
       </div>
-      
+
+
     </div>
     <div class='main-two'>
         <code>
-              Tratando a raiz do seu problema!      
+              Tratando a raiz do seu problema
         </code>
         <!-- <code v-else-if="Math.random() > 0.5">
               <i class="fa-solid fa-quote-left"></i> Nascer, morrer, renascer ainda, progredir sempre, tal é a lei.<br>
-              Allan Kardec      
+              Allan Kardec
             </code>
         <code v-else-if="Math.random() > 0.5">
               <i class="fa-solid fa-quote-left"></i> Para crer, não basta ver, é necessário compreender.
               <br>
-              Allan Kardec   
+              Allan Kardec
             </code>
         <code v-else>
               <i class="fa-solid fa-quote-left"></i> De uma forma ou de outra, se a evolução humana é para continuar, teremos de aprender a apreciar mais a vida completamente.
               <br>
-              Mihaly Csikszentmihalyi      
+              Mihaly Csikszentmihalyi
             </code> -->
       </div>
-    
+
         <div class='main-tree'>
           <div class='homeTwo'>
             <div class='homeTwoDot' :class='{ selectTitle: aplicarAcu }'>
@@ -38,16 +39,16 @@
             <div class='homeTwoDot' :class='{ selectTitle: aplicarCran }'>
               <RouterLink to="">Craniopuntura</RouterLink >
             </div>
-            <div class='homeTwoDot' :class='{ selectTitle: aplicarCran }'>
+            <div class='homeTwoDot' :class='{ selectTitle: aplicarAur }'>
               <RouterLink to="">Auriculoterapia</RouterLink >
             </div>
-            <div class='homeTwoDot' :class='{ selectTitle: aplicarCran }'>
+            <div class='homeTwoDot' :class='{ selectTitle: aplicarVen }'>
               <RouterLink to="">Ventosaterapia</RouterLink >
             </div>
-            <div class='homeTwoDot' :class='{ selectTitle: aplicarCran }'>
+            <div class='homeTwoDot' :class='{ selectTitle: aplicarGua }'>
               <RouterLink to="">Gua Sha</RouterLink >
             </div>
-            <div class='homeTwoDot' :class='{ selectTitle: aplicarCran }'>
+            <div class='homeTwoDot' :class='{ selectTitle: aplicarForm }'>
               <RouterLink to="">Fórmulas Magistrias Chinesas</RouterLink >
             </div>
             <!--
@@ -80,31 +81,37 @@
             v-html='rLabirintite'></h4>
             <h4 @click='sinusite()' class='dot-index' :class='{ selectTitleHover: aplicarFourteen }' v-html='rSinusite'>
             </h4>
+            <div class="hr"></div>
             <!--Distúrbios ginecológicos
               Distúrbios gastrointestinais
               Distúrbios alérgicos
               Distúrbios imunológicos -->
             </div>
-    <div class='main-one'>
+            <div class='main-one'>
       <a href="https://instagram.com/deepacupuntura">
-        <i class="fa-brands fa-instagram-square"></i> 
+        <i class="fa-brands fa-instagram-square"></i>
       </a>
-      
+
       <a href="mailto:email@deepacupuntura.com">
-        <i class="fa-solid fa-at"></i> 
+        <i class="fa-solid fa-at"></i>
       </a>
       <a href="https://agendamento.nextfit.com.br/74fb4384-512b-425d-9cc4-93d948554990">
         <i class="fa-solid fa-calendar-plus"></i>
       </a>
     </div>
 
-  
+
     <!-- <div class='divider'></div> -->
 
 
     </div>
     <div id='main-white'><br>
-      <h3 style='text-transform: uppercase;'>INAUGURADO em <br>- 13 de Março de 2022 -</h3>
+      <h4 style='text-transform: uppercase;'>2002:</h4>
+      <h5 class='clientesGraph'>25 clientes</h5>
+      <h5 class='clientesGraph'>250 sessões de acupuntura</h5>
+      <h5 class='clientesGraph'>250 sessões de acupuntura</h5>
+      <h5 class='clientesGraph'>250 sessões de acupuntura</h5>
+      <div class="clientesGraph"></div>
       <br>
     </div>
 
@@ -120,7 +127,7 @@
     <div class='main-four'>
       <div class='main-four-card'>
         <p>
-          Rua da Conceição, 125 - Center Offices - sala: 1005 - Centro - Niterói -Rio de Janeiro - CEP: 24020-085 
+          Rua da Conceição, 125 - Center Offices - sala: 1005 - Centro - Niterói -Rio de Janeiro - CEP: 24020-085
         </p>
       </div>
       <iframe class='body-map'
@@ -129,8 +136,6 @@
 
     </div>
     <div class='hr'></div>
-
-    <br>
     <!--
      <div class='hr'></div>
      -->
@@ -140,13 +145,13 @@
     <br>
 
   </div>
-    
+
 </template>
 <script>
 export default {
   scrollToTop: true,
   transition: {
-    name: 'page', 
+    name: 'page',
     mode: 'ease-in'
   },
   head: {
@@ -179,6 +184,8 @@ export default {
           aplicarAcu: '',
           aplicarAur: '',
           aplicarVen: '',
+          aplicarForm: '',
+          aplicarGua: '',
           aplicarCran: '',
           aplicarAcu: '',
           aplicarAur: '',
@@ -356,8 +363,10 @@ export default {
       ansiedade() {
           this.aplicarAcu = true,
           this.aplicarAur = true,
-          this.aplicarCran = false,
+          this.aplicarCran = true,
           this.aplicarVen = false,
+          this.aplicarGua = false,
+          this.aplicarForm = false,
           this.aplicar = true,
           this.aplicarTwo = false,
           this.aplicarTree = false,
@@ -374,8 +383,7 @@ export default {
           this.aplicarFourteen = false,
           this.rDepressao = 'depressão',
           this.rAnsiedade = `<span><h4>Ansiedade</h4></span>
-          <br>
-          <span class='white'>é um sentimento de inquietação e preocupação, geralmente generalizado e sem foco, 
+          <span class='white'>é um sentimento de inquietação e preocupação, geralmente generalizado e sem foco,
           como uma reação exagerada a uma situação que é apenas subjetivamente vista como ameaçadora.</span>`,
           this.rEstresse='Estresse',
           this.rCervicalgia='Cervicalgia',
@@ -391,10 +399,12 @@ export default {
           this.rSinusite='Sinusite'
       },
       depressao(){
-          this.aplicarAcu = true,
-          this.aplicarAur = false,
-          this.aplicarVen = false,
+        this.aplicarAcu = true,
+          this.aplicarAur = true,
           this.aplicarCran = true,
+          this.aplicarVen = false,
+          this.aplicarGua = false,
+          this.aplicarForm = false,
           this.aplicar = false,
           this.aplicarTwo = true,
           this.aplicarTree = false,
@@ -411,8 +421,7 @@ export default {
           this.aplicarFourteen = false,
           this.rAnsiedade = 'ansiedade',
           this.rDepressao = `<span><h4>Depressão</h4></span>
-          <br>
-          <span class='white'>é um transtorno mental caracterizado por tristeza profunda persistente 
+          <span class='white'>é um transtorno mental caracterizado por tristeza profunda persistente
           e aversão a atividades. Pode afetar os pensamentos, comportamentos, sentimentos e o bem-estar de uma pessoa.</span>`,
           this.rEstresse='Estresse',
           this.rCervicalgia='Cervicalgia',
@@ -449,8 +458,7 @@ export default {
           this.rAnsiedade = 'ansiedade',
           this.rDepressao = 'Depressão',
           this.rEstresse=`<span><h4>Estresse</h4></span>
-          <br>
-          <span class='white'>É causado pela ansiedade e pela depressão devido à mudança brusca no 
+          <span class='white'>É causado pela ansiedade e pela depressão devido à mudança brusca no
           estilo de vida e a exposição a um determinado ambiente, que leva a pessoa a sentir um determinado tipo de angústia. </span>`,
           this.rCervicalgia='Cervicalgia',
           this.rLombalgia= 'Lombalgia',
@@ -465,9 +473,12 @@ export default {
           this.rSinusite='Sinusite'
       },
       cervicalgia(){
-          this.aplicarAcu = true,
+        this.aplicarAcu = true,
           this.aplicarAur = true,
+          this.aplicarCran = false,
           this.aplicarVen = true,
+          this.aplicarGua = true,
+          this.aplicarForm = false,
           this.aplicar = false,
           this.aplicarCran = false,
           this.aplicarTwo = false,
@@ -487,8 +498,7 @@ export default {
           this.rDepressao = 'Depressão',
           this.rEstresse='Estresse',
           this.rCervicalgia=`<span><h4>Cervicalgia</h4></span>
-          <br>
-          <span class='white'>Dor no pescoço e ombro que varia em intensidade, podendo ser incômoda ou 
+          <span class='white'>Dor no pescoço e ombro que varia em intensidade, podendo ser incômoda ou
           como um choque elétrico desde o pescoço até o braço.</span>`,
           this.rLombalgia= 'Lombalgia',
           this.rEnxaqueca= 'Enxaqueca',
@@ -502,10 +512,12 @@ export default {
           this.rSinusite='Sinusite'
       },
       lombalgia(){
-          this.aplicarAcu = true,
+        this.aplicarAcu = true,
           this.aplicarAur = true,
+          this.aplicarCran = false,
           this.aplicarVen = true,
-          this.aplicarCran = true,
+          this.aplicarGua = true,
+          this.aplicarForm = false,
           this.aplicar = false,
           this.aplicarTwo = false,
           this.aplicarTree = false,
@@ -525,9 +537,8 @@ export default {
           this.rEstresse='Estresse',
           this.rCervicalgia='Cervicalgia',
           this.rLombalgia= `<span><h4>Lombalgia</h4></span>
-          <br>
           <span class='white'>Uma condição dolorosa comum que afeta a parte inferior da coluna.
-A dor lombar é causada por uma lesão em um músculo (tensão) ou ligamento (entorse). As causas comuns incluem 
+A dor lombar é causada por uma lesão em um músculo (tensão) ou ligamento (entorse). As causas comuns incluem
 levantamento impróprio, má postura, falta de exercícios físicos regulares, fratura, disco rompido ou artrite.</span>`,
           this.rEnxaqueca= 'Enxaqueca',
           this.rCefaleia='Cefaleia',
@@ -540,10 +551,12 @@ levantamento impróprio, má postura, falta de exercícios físicos regulares, f
           this.rSinusite='Sinusite'
       },
       enxaqueca() {
-          this.aplicarAcu = true,
-          this.aplicarAur = false,
-          this.aplicarVen = false,
+        this.aplicarAcu = true,
+          this.aplicarAur = true,
           this.aplicarCran = true,
+          this.aplicarVen = false,
+          this.aplicarGua = false,
+          this.aplicarForm = false,
           this.aplicar = false,
           this.aplicarTwo = false,
           this.aplicarTree = false,
@@ -564,9 +577,8 @@ levantamento impróprio, má postura, falta de exercícios físicos regulares, f
           this.rCervicalgia='Cervicalgia',
           this.rLombalgia= 'Lombalgia',
           this.rEnxaqueca= `<span><h4>Enxaqueca</h4></span>
-          <br>
           <span class='white'>Dor de cabeça de intensidade variável, muitas vezes acompanhada de náuseas e sensibilidade à luz e ao som.
-Às vezes, as enxaquecas são precedidas por sintomas de alerta. Os gatilhos incluem alterações hormonais, certos alimentos e bebidas, estresse 
+Às vezes, as enxaquecas são precedidas por sintomas de alerta. Os gatilhos incluem alterações hormonais, certos alimentos e bebidas, estresse
 e exercícios físicos.</span>`,
           this.rCefaleia='Cefaleia',
           this.rBaixaImunidade='Baixa Imunidade',
@@ -578,9 +590,12 @@ e exercícios físicos.</span>`,
           this.rSinusite='Sinusite'
       },
       cefaleia () {
-          this.aplicarAcu = true,
+        this.aplicarAcu = true,
           this.aplicarAur = true,
+          this.aplicarCran = true,
           this.aplicarVen = false,
+          this.aplicarGua = false,
+          this.aplicarForm = false,
           this.aplicar = false,
           this.aplicarTwo = false,
           this.aplicarTree = false,
@@ -603,8 +618,7 @@ e exercícios físicos.</span>`,
           this.rLombalgia= 'Lombalgia',
           this.rEnxaqueca= 'Enxaqueca',
           this.rCefaleia=`<span><h4>Cefaléia</h4></span>
-          <br>
-          <span class='white'>Uma sensação dolorosa em qualquer parte da cabeça, 
+          <span class='white'>Uma sensação dolorosa em qualquer parte da cabeça,
           desde aguda até incômoda, podendo ocorrer junto com outros sintomas.</span>`,
           this.rBaixaImunidade='Baixa Imunidade',
           this.rBurnout='Burnout',
@@ -615,10 +629,12 @@ e exercícios físicos.</span>`,
           this.rSinusite='Sinusite'
       },
       baixaImunidade () {
-          this.aplicarAcu = true,
-          this.aplicarAur = false,
-          this.aplicarVen = false,
+        this.aplicarAcu = true,
+          this.aplicarAur = true,
           this.aplicarCran = false,
+          this.aplicarVen = false,
+          this.aplicarGua = false,
+          this.aplicarForm = true,
           this.aplicar = false,
           this.aplicarTwo = false,
           this.aplicarTree = false,
@@ -641,8 +657,7 @@ e exercícios físicos.</span>`,
           this.rEnxaqueca= 'Enxaqueca',
           this.rCefaleia='Cefaleia',
           this.rBaixaImunidade=`<span><h4>Baixa Imunidade</h4></span>
-          <br>
-          <span class='white'>pode ser percebida quando o organismo dá alguns sinais, indicando que as defesas do organismo estão baixas e que o sistema imunológico não está sendo capaz de combater 
+          <span class='white'>pode ser percebida quando o organismo dá alguns sinais, indicando que as defesas do organismo estão baixas e que o sistema imunológico não está sendo capaz de combater
           os agentes infecciosos, como vírus e bactérias, o que pode fazer com que a pessoa fique doente com mais frequência.</span>`,
           this.rBurnout='Burnout',
           this.rLaringite='Laringite',
@@ -652,10 +667,12 @@ e exercícios físicos.</span>`,
           this.rSinusite='Sinusite'
       },
       burnOut() {
-          this.aplicarAcu = true,
-          this.aplicarAur = false,
+        this.aplicarAcu = true,
+          this.aplicarAur = true,
+          this.aplicarCran = false,
           this.aplicarVen = false,
-          this.aplicarCran = true,
+          this.aplicarGua = false,
+          this.aplicarForm = true,
           this.aplicar = false,
           this.aplicarTwo = false,
           this.aplicarTree = false,
@@ -679,8 +696,7 @@ e exercícios físicos.</span>`,
           this.rCefaleia='Cefaleia',
           this.rBaixaImunidade='Baixa Imunidade',
           this.rBurnout=`<span><h4>Burnout</h4></span>
-          <br>
-          <span class='white'>A síndrome de burnout é um distúrbio psíquico causado pela exaustão extrema, sempre relacionada ao trabalho de um indivíduo. Essa condição 
+          <span class='white'>A síndrome de burnout é um distúrbio psíquico causado pela exaustão extrema, sempre relacionada ao trabalho de um indivíduo. Essa condição
           também é chamada de “síndrome do esgotamento profissional” e afeta quase todas as facetas da vida de um indivíduo.</span>`,
           this.rLaringite='Laringite',
           this.rInsonia='Insônia',
@@ -689,10 +705,12 @@ e exercícios físicos.</span>`,
           this.rSinusite='Sinusite'
       },
       laringite() {
-          this.aplicarAcu = true,
+        this.aplicarAcu = true,
           this.aplicarAur = true,
+          this.aplicarCran = false,
           this.aplicarVen = false,
-          this.aplicarCran = true,
+          this.aplicarGua = false,
+          this.aplicarForm = false,
           this.aplicar = false,
           this.aplicarTwo = false,
           this.aplicarTree = false,
@@ -717,8 +735,7 @@ e exercícios físicos.</span>`,
           this.rBaixaImunidade='Baixa Imunidade',
           this.rBurnout='Burnout',
           this.rLaringite=`<span><h4>Laringite</h4></span>
-          <br>
-          <span class='white'>é a inflamação da laringe (região das vias aéreas onde ficam localizadas as cordas vocais), que conecta a faringe à traqueia e faz parte do sistema respiratório. A inflamação 
+          <span class='white'>é a inflamação da laringe (região das vias aéreas onde ficam localizadas as cordas vocais), que conecta a faringe à traqueia e faz parte do sistema respiratório. A inflamação
           dessa região pode ser causada por vírus (mais prevalente), bactérias, inalação de agentes alérgicos ou esforço excessivo da voz.</span>`,
           this.rInsonia='Insônia',
           this.rZumbido='Zumbido',
@@ -726,9 +743,12 @@ e exercícios físicos.</span>`,
           this.rSinusite='Sinusite'
       },
       insonia() {
-          this.aplicarAcu = true,
-          this.aplicarAur = false,
+        this.aplicarAcu = true,
+          this.aplicarAur = true,
+          this.aplicarCran = true,
           this.aplicarVen = false,
+          this.aplicarGua = false,
+          this.aplicarForm = false,
           this.aplicar = false,
           this.aplicarTwo = false,
           this.aplicarTree = false,
@@ -755,18 +775,19 @@ e exercícios físicos.</span>`,
           this.rBurnout='Burnout',
           this.rLaringite='Laringite',
           this.rInsonia=`<span><h4>Insônia</h4></span>
-          <br>
-          <span class='white'>é caracterizada pela dificuldade de dormir ou conseguir manter um sono contínuo sem ser interrompido durante a noite. Cerca de 30% a 50% dos brasileiros sofrem com a insônia, 
+          <span class='white'>é caracterizada pela dificuldade de dormir ou conseguir manter um sono contínuo sem ser interrompido durante a noite. Cerca de 30% a 50% dos brasileiros sofrem com a insônia,
           que pode se manifestar por diversas razões, como estresse, ansiedade, depressão, dor crônica e uso de certos medicamentos.</span>`,
           this.rZumbido='Zumbido',
           this.rLabirintite='Labirintite',
           this.rSinusite='Sinusite'
       },
       zumbido() {
-          this.aplicarAcu = true,
-          this.aplicarAur = false,
-          this.aplicarVen = false,
+        this.aplicarAcu = true,
+          this.aplicarAur = true,
           this.aplicarCran = true,
+          this.aplicarVen = false,
+          this.aplicarGua = false,
+          this.aplicarForm = false,
           this.aplicar = false,
           this.aplicarTwo = false,
           this.aplicarTree = false,
@@ -793,16 +814,17 @@ e exercícios físicos.</span>`,
           this.rLaringite='Laringite',
           this.rInsonia='Insônia',
           this.rZumbido=`<span><h4>Zumbido</h4></span>
-          <br>
           <span class='white'>Também chamado de Sibilo ou Tinido, pode ser definido como uma ilusão auditiva, ou seja, uma sensação sonora não relacionada com uma fonte externa de estimulação.</span>`,
           this.rLabirintite='Labirintite',
           this.rSinusite='Sinusite'
       },
       labirintite() {
-          this.aplicarAcu = true,
-          this.aplicarAur = false,
-          this.aplicarVen = false,
+        this.aplicarAcu = true,
+          this.aplicarAur = true,
           this.aplicarCran = true,
+          this.aplicarVen = false,
+          this.aplicarGua = false,
+          this.aplicarForm = false,
           this.aplicar = false,
           this.aplicarTwo = false,
           this.aplicarTree = false,
@@ -830,16 +852,17 @@ e exercícios físicos.</span>`,
           this.rInsonia='Insônia',
           this.rZumbido='Zumbido',
           this.rLabirintite=`<span><h4>Labirintite</h4></span>
-          <br>
-          <span class='white'>Labirintite é o nome popular que se dá a todos os transtornos do labirinto, uma estrutura interna do ouvido composta pela cóclea (imprescindível para a 
+          <span class='white'>Labirintite é o nome popular que se dá a todos os transtornos do labirinto, uma estrutura interna do ouvido composta pela cóclea (imprescindível para a
           nossa audição), pelo vestíbulo e pelos canais semicirculares (que têm papel na manutenção do nosso equilíbrio).</span>`,
           this.rSinusite='Sinusite'
       },
       sinusite() {
-          this.aplicarAcu = true,
-          this.aplicarCran = true,
+        this.aplicarAcu = true,
           this.aplicarAur = false,
+          this.aplicarCran = false,
           this.aplicarVen = false,
+          this.aplicarGua = false,
+          this.aplicarForm = false,
           this.aplicar = false,
           this.aplicarTwo = false,
           this.aplicarTree = false,
@@ -868,11 +891,10 @@ e exercícios físicos.</span>`,
           this.rZumbido='Zumbido',
           this.rLabirintite='Labirintite',
           this.rSinusite=`<span><h4>Sinusite</h4></span>
-          <br>
-          <span class='white'>é a inflamação das mucosas dos seios da face, região do crânio formada por cavidades ósseas ao redor do nariz, maçãs do rosto e olhos. Os 
+          <span class='white'>é a inflamação das mucosas dos seios da face, região do crânio formada por cavidades ósseas ao redor do nariz, maçãs do rosto e olhos. Os
           seios da face dão ressonância à voz, aquecem o ar inspirado e diminuem o peso do crânio, o que facilita sua sustentação.</span>`
       }
-  } 
+  }
 }
 </script>
 
@@ -939,6 +961,7 @@ code {
   -2px -2px 5px #ffffff70,
   2px 2px 5px #ffffff70,
   2px -2px 5px #ffffff70;
+  transition: all .3s linear;
 }
 
 .profile h1:hover {
@@ -951,10 +974,14 @@ code {
 }
 
 .profile h4 {
-  margin: 0 0 0 -10px;
+  margin: 0 0 0 -13px;
+  padding: 0 4px;
   font-size: .9em;
-  font-weight: 100;
+  font-weight: bold;
+  line-height: 1;
   color: #e23a28;
+  border-left: solid 4px #e23a28;
+  border-right: solid 4px #e23a28;
 }
 
 .main-one {
@@ -1038,7 +1065,24 @@ code {
   background-color: #d8d8d840;
   width: 100%;
   margin: 30px auto 0px;
-  text-align: center;
+  text-align: left;
+}
+
+#main-white  div {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: #fff;
+  overflow-x: auto;
+}
+
+#main-white h4 {
+  margin: 0 10px;
+}
+
+#main-white .clientesGraph {
+  margin: 10px;
+  background-color: #e23a28;
 }
 
 .main-four {
@@ -1217,7 +1261,7 @@ transition: all .3s ease-in;
   -2px -2px 5px #e23a28,
   2px 2px 5px #e23a28,
   2px -2px 5px #e23a28;
-  color: #fff;  
+  color: #fff;
 }
 
 .selectTitleHover {

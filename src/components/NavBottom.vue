@@ -89,7 +89,7 @@ i {
   color: #ffffff;
 }
 
-.nav-bottom a.nuxt-link-exact-active {
+.nav-bottom a.router-link-exact-active {
   color: #fff;
 }
 </style>
