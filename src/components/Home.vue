@@ -103,8 +103,9 @@
 
     <!-- <div class='divider'></div> -->
 
-
-    </div>
+    
+  </div>
+  <!-- 
     <div id='main-white'><br>
       <h4 style='text-transform: uppercase;'>2002:</h4>
       <h5 class='clientesGraph'>25 clientes</h5>
@@ -114,9 +115,10 @@
       <div class="clientesGraph"></div>
       <br>
     </div>
-
+    
+  -->
     <div class='hr'></div>
-
+    
     <div class='main-tree'>
       <div>
         <h5><i class="fa-solid fa-map-location"></i> Localização</h5>

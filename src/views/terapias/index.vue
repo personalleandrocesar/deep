@@ -3,10 +3,12 @@
     
 
     <div class='main-four'>
+      <!--
 
-      <h5>
-        Clique em uma das terapias abaixo! 👇
-      </h5>
+        <h5>
+          Clique em uma das terapias abaixo! 👇
+        </h5>
+      -->
     </div>
     <div class='main-five'>
 
@@ -17,9 +19,22 @@
         </div>
         <div>
           <h4>Acupuntura Sistêmica</h4>
-          <h5>R$ 85,00 - 1 sessão</h5>
-          <h5>R$ 270,00 - Pacote de 4 sessões</h5>
+          <h5>R$ 90,00 - 1 sessão</h5>
+          <h5>R$ 300,00 - Pacote de 4 sessões</h5>
           <p>Técnica chinesa milenar, em que os pontos se localizam ao longo de todo o corpo.</p>
+        </div>
+      </div>
+      <div @click="personal" class='main-five-card'>
+        <div>
+          <img src='../../assets/img/auriculo.jpg' alt='' class='mini-profile'>
+          <p><i class="fa-solid fa-people-arrows-left-right"></i> Serviço presencial</p>
+  
+        </div>
+        <div>
+          <h4>Auriculoterapia</h4>
+          <h5>R$ 65,00 - 1 sessão</h5>
+          <h5>R$ 200,00 - Pacote de 4 sessões</h5>
+          <p>Técnica de acupuntura que utiliza a orelha para avaliação e tratamento das disfunções.</p>
         </div>
       </div>
       <div @click="personal" class='main-five-card'>
@@ -29,8 +44,8 @@
         </div>
         <div>
           <h4>Crâniopuntura</h4>
-          <h5>R$ 85,00 - 1 sessão</h5>
-          <h5>R$ 270,00 - Pacote de 4 sessões</h5>
+          <h5>R$ 90,00 - 1 sessão</h5>
+          <h5>R$ 300,00 - Pacote de 4 sessões</h5>
           <p>Técnica chinesa que trata doenças de origem neural ou visceral, relacionadas com o córtex cerebral.</p>
         </div>
       </div>
@@ -42,21 +57,8 @@
         <div>
           <h4>Ventosaterapia</h4>
           <h5>R$ 65,00 - 1 sessão</h5>
-          <h5>R$ 205,00 - Pacote de 4 sessões</h5>
+          <h5>R$ 200,00 - Pacote de 4 sessões</h5>
           <p>Visa eliminar toxinas e retirar estagnações do sangue em determinadas zonas do corpo.</p>
-        </div>
-      </div>
-      <div @click="personal" class='main-five-card'>
-        <div>
-          <img src='../../assets/img/auriculo.jpg' alt='' class='mini-profile'>
-          <p><i class="fa-solid fa-people-arrows-left-right"></i> Serviço presencial</p>
-
-        </div>
-        <div>
-          <h4>Auriculoterapia</h4>
-          <h5>R$ 65,00 - 1 sessão</h5>
-          <h5>R$ 205,00 - Pacote de 4 sessões</h5>
-          <p>Técnica de acupuntura que utiliza a orelha para avaliação e tratamento das disfunções.</p>
         </div>
       </div>
 

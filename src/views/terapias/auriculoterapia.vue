@@ -19,7 +19,7 @@
         <div>
           <h4>Auriculoterapia</h4>
           <h5>R$ 65,00 - 1 sessão</h5>
-          <h5>R$ 205,00 - Pacote de 4 sessões</h5>
+          <h5>R$ 200,00 - Pacote de 4 sessões</h5>
           <p>Técnica de acupuntura que utiliza a orelha para avaliação e tratamento das disfunções.</p>
         </div>
       </div>

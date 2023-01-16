@@ -17,7 +17,7 @@
         <div>
           <h4>Ventosaterapia</h4>
           <h5>R$ 65,00 - 1 sessão</h5>
-          <h5>R$ 205,00 - Pacote de 4 sessões</h5>
+          <h5>R$ 200,00 - Pacote de 4 sessões</h5>
           <p>Visa eliminar toxinas e retirar estagnações do sangue em determinadas zonas do corpo.</p>
         </div>
       </div>
