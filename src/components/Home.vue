@@ -95,7 +95,7 @@
       <a href="mailto:email@deepacupuntura.com">
         <i class="fa-solid fa-at"></i>
       </a>
-      <a href="https://agendamento.nextfit.com.br/74fb4384-512b-425d-9cc4-93d948554990">
+      <a href="https://agenda.deepacupuntura.com">
         <i class="fa-solid fa-calendar-plus"></i>
       </a>
     </div>
