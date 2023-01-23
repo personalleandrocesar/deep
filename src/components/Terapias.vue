@@ -308,7 +308,7 @@ code {
 
 
 
-a.nuxt-link-exact-active {
+a.router-link-exact-active {
     background-color: #e23a2890;
     color: #fff;
     border-radius: 0% 10% 10% 10%;
