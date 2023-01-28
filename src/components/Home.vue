@@ -1,63 +1,8 @@
 <template>
   <div>
 
-    <div class='profile'>
-      <img src='../assets/img/MyLogoBold.svg' alt=''>
-
-      <div>
-        <h1>Deep Acupuntura</h1>
-        <h4>Clinica de Medicina Chinesa</h4>
-      </div>
-
-
-    </div>
-    <div class='main-two'>
-        <code>
-              Tratando a raiz do seu problema
-        </code>
-        <!-- <code v-else-if="Math.random() > 0.5">
-              <i class="fa-solid fa-quote-left"></i> Nascer, morrer, renascer ainda, progredir sempre, tal é a lei.<br>
-              Allan Kardec
-            </code>
-        <code v-else-if="Math.random() > 0.5">
-              <i class="fa-solid fa-quote-left"></i> Para crer, não basta ver, é necessário compreender.
-              <br>
-              Allan Kardec
-            </code>
-        <code v-else>
-              <i class="fa-solid fa-quote-left"></i> De uma forma ou de outra, se a evolução humana é para continuar, teremos de aprender a apreciar mais a vida completamente.
-              <br>
-              Mihaly Csikszentmihalyi
-            </code> -->
-      </div>
 
         <div class='main-tree'>
-          <div class='homeTwo'>
-            <div class='homeTwoDot' :class='{ selectTitle: aplicarAcu }'>
-              <RouterLink to="">Acupuntura Sistêmica</RouterLink>
-            </div>
-            <div class='homeTwoDot' :class='{ selectTitle: aplicarCran }'>
-              <RouterLink to="">Craniopuntura</RouterLink >
-            </div>
-            <div class='homeTwoDot' :class='{ selectTitle: aplicarAur }'>
-              <RouterLink to="">Auriculoterapia</RouterLink >
-            </div>
-            <div class='homeTwoDot' :class='{ selectTitle: aplicarVen }'>
-              <RouterLink to="">Ventosaterapia</RouterLink >
-            </div>
-            <div class='homeTwoDot' :class='{ selectTitle: aplicarGua }'>
-              <RouterLink to="">Gua Sha</RouterLink >
-            </div>
-            <div class='homeTwoDot' :class='{ selectTitle: aplicarForm }'>
-              <RouterLink to="">Fórmulas Magistrias Chinesas</RouterLink >
-            </div>
-            <!--
-                  // <div @click='acupuntura()' class='homeTwoDot' :class='{ selectTitle: aplicarAcu }'>Acupuntura Sistêmica</div>
-                  // <div @click='craniopuntura()' class='homeTwoDot' :class='{ selectTitle: aplicarCran }'>Craniopuntura</div>
-                  // <div @click='auriculo()' class='homeTwoDot' :class='{ selectTitle: aplicarAur }'>Auriculoterapia</div>
-                  // <div @click='ventosa()' class='homeTwoDot' :class='{ selectTitle: aplicarVen }'>Ventosaterapia</div>
-                  -->
-          </div>
           <br>
           <div>
             <h5 class='hCincoTwo' style='margin-right: 10px;'>Indicações</h5>
