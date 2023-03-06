@@ -31,17 +31,17 @@
               Distúrbios gastrointestinais
               Distúrbios alérgicos
               Distúrbios imunológicos -->
-            </div>
-            <div class='main-one'>
+          </div>
+    <div class='main-one'>
       <a href="https://instagram.com/deepacupuntura">
-        <i class="fa-brands fa-instagram-square"></i>
+        <i class="fa-brands fa-instagram-square"></i> Instagram
       </a>
 
       <a href="mailto:email@deepacupuntura.com">
-        <i class="fa-solid fa-at"></i>
+        <i class="fa-solid fa-at"></i> E-mail
       </a>
       <a href="https://agenda.deepacupuntura.com">
-        <i class="fa-solid fa-calendar-plus"></i>
+        <i class="fa-solid fa-calendar-plus"></i> Agenda
       </a>
     </div>
 
@@ -942,18 +942,23 @@ code {
 
 .main-one a i {
   display: block;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .main-one a {
+  width: 80px;
+  padding: 5px 0 3px 0;
+  font-size: 14px;
   color: #ddd;
   border: solid .1px #ffffff70;
-  padding: 8px  15px;
   border-radius: 5% 4% 15%;
   transition: all .3s linear;
 }
 .main-one a:hover {
   background-color: #d8d8d840;
+  border: solid .1px #e23a28;
+  color: #fff;
+  font-weight: bolder;
 }
 
 .main-two {
