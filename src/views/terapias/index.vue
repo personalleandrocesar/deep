@@ -3,28 +3,27 @@
     
 
     <div class='main-four'>
-      <!--
-
+      
         <h5>
           Clique em uma das terapias abaixo! 👇
         </h5>
-      -->
+      
     </div>
     <div class='main-five'>
 
-      <div @click="personal" class='main-five-card'>
+      <router-link to="/terapias/acupuntura" class='main-five-card'>
         <div>
           <img src='../../assets/img/acuSistemica.jpg' alt='' class='mini-profile'>
           <p><i class="fa-solid fa-people-arrows-left-right"></i> Serviço presencial</p>
         </div>
         <div>
           <h4>Acupuntura Sistêmica</h4>
-          <h5>R$ 90,00 - 1 sessão</h5>
-          <h5>R$ 300,00 - Pacote de 4 sessões</h5>
+          <h5>R$ 100,00 - 1 sessão</h5>
+          <h5><s>R$ 400,00</s> &#8594; R$ 300,00 - Pacote de 4 sessões</h5>
           <p>Técnica chinesa milenar, em que os pontos se localizam ao longo de todo o corpo.</p>
         </div>
-      </div>
-      <div @click="personal" class='main-five-card'>
+      </router-link>
+    <router-link to="/terapias/auriculoterapia" class='main-five-card'>
         <div>
           <img src='../../assets/img/auriculo.jpg' alt='' class='mini-profile'>
           <p><i class="fa-solid fa-people-arrows-left-right"></i> Serviço presencial</p>
@@ -32,35 +31,35 @@
         </div>
         <div>
           <h4>Auriculoterapia</h4>
-          <h5>R$ 65,00 - 1 sessão</h5>
-          <h5>R$ 200,00 - Pacote de 4 sessões</h5>
+          <h5>R$ 70,00 - 1 sessão</h5>
+            <h5><s>R$ 280,00</s> &#8594; R$ 200,00 - Pacote de 4 sessões</h5>
           <p>Técnica de acupuntura que utiliza a orelha para avaliação e tratamento das disfunções.</p>
         </div>
-      </div>
-      <div @click="personal" class='main-five-card'>
-        <div>
-          <img src='../../assets/img/cranio.jpg' alt='' class='mini-profile'>
-          <p><i class="fa-solid fa-people-arrows-left-right"></i> Serviço presencial</p>
-        </div>
-        <div>
-          <h4>Crâniopuntura</h4>
-          <h5>R$ 90,00 - 1 sessão</h5>
-          <h5>R$ 300,00 - Pacote de 4 sessões</h5>
-          <p>Técnica chinesa que trata doenças de origem neural ou visceral, relacionadas com o córtex cerebral.</p>
-        </div>
-      </div>
-      <div @click="personal" class='main-five-card'>
+      </router-link>
+      <router-link to="/terapias/acupuntura" class='main-five-card'>
         <div>
           <img src='../../assets/img/ventosa.jpg' alt='' class='mini-profile'>
           <p><i class="fa-solid fa-people-arrows-left-right"></i> Serviço presencial</p>
         </div>
         <div>
           <h4>Ventosaterapia</h4>
-          <h5>R$ 65,00 - 1 sessão</h5>
-          <h5>R$ 200,00 - Pacote de 4 sessões</h5>
+          <h5>R$ 70,00 - 1 sessão</h5>
+            <h5><s>R$ 280,00</s> &#8594; R$ 200,00 - Pacote de 4 sessões</h5>
           <p>Visa eliminar toxinas e retirar estagnações do sangue em determinadas zonas do corpo.</p>
         </div>
-      </div>
+      </router-link>
+      <router-link to="/terapias/craniopuntura" class='main-five-card'>
+        <div>
+          <img src='../../assets/img/cranio.jpg' alt='' class='mini-profile'>
+          <p><i class="fa-solid fa-people-arrows-left-right"></i> Serviço presencial</p>
+        </div>
+        <div>
+          <h4>Crâniopuntura</h4>
+          <h5>R$ 100,00 - 1 sessão</h5>
+            <h5><s>R$ 400,00</s> &#8594; R$ 300,00 - Pacote de 4 sessões</h5>
+          <p>Técnica chinesa que trata doenças de origem neural ou visceral, relacionadas com o córtex cerebral.</p>
+        </div>
+      </router-link>
 
       <br>
       <br>
@@ -588,6 +587,10 @@ code {
   display: flex;
   justify-content: flex-start;
   flex-direction: collumn;
+}
+
+.main-five a p {
+  color: #fff;
 }
 
 .main-five img {

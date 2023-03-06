@@ -11,9 +11,9 @@
             <div class='main-four-card'>
                 <RouterLink to="/terapias">Todas</RouterLink >
                 <RouterLink to="/terapias/acupuntura">Acupuntura</RouterLink >
-                <RouterLink to="/terapias/craniopuntura">Crâniopuntura</RouterLink >
-                <RouterLink to="/terapias/ventosaterapia">Ventosaterapia</RouterLink >
-                <RouterLink to="/terapias/auriculoterapia">Auriculoterapia</RouterLink >
+                    <RouterLink to="/terapias/auriculoterapia">Auriculoterapia</RouterLink >
+                    <RouterLink to="/terapias/ventosaterapia">Ventosaterapia</RouterLink >
+                        <RouterLink to="/terapias/craniopuntura">Crâniopuntura</RouterLink >
             </div>
         </div>
 

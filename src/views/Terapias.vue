@@ -11,9 +11,9 @@
             <div class='main-four-card'>
                 <nuxt-link to="/terapias">Todas</nuxt-link>
                 <nuxt-link to="/terapias/acupuntura">Acupuntura</nuxt-link>
-                <nuxt-link to="/terapias/craniopuntura">Crâniopuntura</nuxt-link>
-                <nuxt-link to="/terapias/ventosaterapia">Ventosaterapia</nuxt-link>
                 <nuxt-link to="/terapias/auriculoterapia">Auriculoterapia</nuxt-link>
+                <nuxt-link to="/terapias/ventosaterapia">Ventosaterapia</nuxt-link>
+                <nuxt-link to="/terapias/craniopuntura">Crâniopuntura</nuxt-link>
             </div>
         </div>
 

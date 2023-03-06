@@ -3,9 +3,6 @@
 
     <div class='main-four'>
 
-      <h5>
-        Clique em uma das terapias abaixo! 👇
-      </h5>
     </div>
     <div class='main-five'>
 
@@ -16,8 +13,8 @@
         </div>
         <div>
           <h4>Acupuntura Sistêmica</h4>
-          <h5>R$ 90,00 - 1 sessão</h5>
-          <h5>R$ 300,00 - Pacote de 4 sessões</h5>
+          <h5>R$ 100,00 - 1 sessão</h5>
+          <h5><s>R$ 400,00</s> &#8594; R$ 300,00 - Pacote de 4 sessões</h5>
           <p>Técnica chinesa milenar, em que os pontos se localizam ao longo de todo o corpo.</p>
         </div>
       </div>

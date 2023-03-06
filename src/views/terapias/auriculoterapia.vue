@@ -3,9 +3,6 @@
 
     <div class='main-four'>
 
-      <h5>
-        Clique em uma das terapias abaixo! 👇
-      </h5>
     </div>
     <div class='main-five'>
 
@@ -18,8 +15,8 @@
         </div>
         <div>
           <h4>Auriculoterapia</h4>
-          <h5>R$ 65,00 - 1 sessão</h5>
-          <h5>R$ 200,00 - Pacote de 4 sessões</h5>
+          <h5>R$ 70,00 - 1 sessão</h5>
+          <h5><s>R$ 280,00</s> &#8594; R$ 200,00 - Pacote de 4 sessões</h5>
           <p>Técnica de acupuntura que utiliza a orelha para avaliação e tratamento das disfunções.</p>
         </div>
       </div>
