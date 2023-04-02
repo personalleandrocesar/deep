@@ -74,7 +74,7 @@
     <div class='main-four'>
       <div class='main-four-card'>
         <p>
-          Rua da Conceição, 125 - Center Offices - sala: 1005 - Centro - Niterói -Rio de Janeiro - CEP: 24020-085
+          Rua da Conceição, 125 - sala: 1005 - Center Offices - Centro - Niterói -Rio de Janeiro - CEP: 24020-085
         </p>
       </div>
       <iframe class='body-map'
