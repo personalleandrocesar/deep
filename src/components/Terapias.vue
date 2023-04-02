@@ -14,6 +14,7 @@
                     <RouterLink to="/terapias/auriculoterapia">Auriculoterapia</RouterLink >
                     <RouterLink to="/terapias/ventosaterapia">Ventosaterapia</RouterLink >
                         <RouterLink to="/terapias/craniopuntura">Crâniopuntura</RouterLink >
+                        <RouterLink to="/terapias/formulas">Fórmulas</RouterLink >
             </div>
         </div>
 

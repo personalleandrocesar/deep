@@ -1,134 +1,69 @@
 <template>
-  <div>
-    
+<div>
 
     <div class='main-four'>
-      
-        <h5>
-          Clique em uma das terapias abaixo! 👇
-        </h5>
-      
+
     </div>
     <div class='main-five'>
 
-      <router-link to="/terapias/acupuntura" class='main-five-card'>
+      <div @click="personal" class='main-five-card'>
         <div>
-          <img src='../../assets/img/acuSistemica.jpg' alt='' class='mini-profile'>
-          <p><i class="fa-solid fa-people-arrows-left-right"></i> Serviço presencial</p>
-        </div>
-        <div>
-          <h4>Acupuntura Sistêmica</h4>
-          <h5>R$ 100,00 - 1 sessão</h5>
-          <h5><s>R$ 400,00</s> &#8594; R$ 300,00 - Pacote de 4 sessões</h5>
-          <p>Técnica chinesa milenar, em que os pontos se localizam ao longo de todo o corpo.</p>
-        </div>
-      </router-link>
-    <router-link to="/terapias/auriculoterapia" class='main-five-card'>
-        <div>
-          <img src='../../assets/img/auriculo.jpg' alt='' class='mini-profile'>
-          <p><i class="fa-solid fa-people-arrows-left-right"></i> Serviço presencial</p>
-  
-        </div>
-        <div>
-          <h4>Auriculoterapia</h4>
-          <h5>R$ 70,00 - 1 sessão</h5>
-            <h5><s>R$ 280,00</s> &#8594; R$ 200,00 - Pacote de 4 sessões</h5>
-          <p>Técnica de acupuntura que utiliza a orelha para avaliação e tratamento das disfunções.</p>
-        </div>
-      </router-link>
-      <router-link to="/terapias/ventosaterapia" class='main-five-card'>
-        <div>
-          <img src='../../assets/img/ventosa.jpg' alt='' class='mini-profile'>
-          <p><i class="fa-solid fa-people-arrows-left-right"></i> Serviço presencial</p>
-        </div>
-        <div>
-          <h4>Ventosaterapia</h4>
-          <h5>R$ 70,00 - 1 sessão</h5>
-            <h5><s>R$ 280,00</s> &#8594; R$ 200,00 - Pacote de 4 sessões</h5>
-          <p>Visa eliminar toxinas e retirar estagnações do sangue em determinadas zonas do corpo.</p>
-        </div>
-      </router-link>
-      <router-link to="/terapias/craniopuntura" class='main-five-card'>
-        <div>
-          <img src='../../assets/img/cranio.jpg' alt='' class='mini-profile'>
-          <p><i class="fa-solid fa-people-arrows-left-right"></i> Serviço presencial</p>
-        </div>
-        <div>
-          <h4>Crâniopuntura</h4>
-          <h5>R$ 100,00 - 1 sessão</h5>
-            <h5><s>R$ 400,00</s> &#8594; R$ 300,00 - Pacote de 4 sessões</h5>
-          <p>Técnica chinesa que trata doenças de origem neural ou visceral, relacionadas com o córtex cerebral.</p>
-        </div>
-      </router-link>
-      <router-link to="/terapias/ventosaterapia" class='main-five-card'>
-        <div>
-          <img src='../../assets/img/ventosa.jpg' alt='' class='mini-profile'>
-          <p><i class="fa-solid fa-people-arrows-left-right"></i> Serviço presencial</p>
-        </div>
-        <div>
-          <h4>Ventosaterapia</h4>
-          <h5>R$ 70,00 - 1 sessão</h5>
-            <h5><s>R$ 280,00</s> &#8594; R$ 200,00 - Pacote de 4 sessões</h5>
-          <p>Visa eliminar toxinas e retirar estagnações do sangue em determinadas zonas do corpo.</p>
-        </div>
-      </router-link>
-      <router-link to="/terapias/formulas" class='main-five-card'>
-        <div>
-          <img src='../../assets/img/formula.jpg' alt='' class='mini-profile'>
-          <p><i class="fa-solid fa-mobile-screen-button"></i> Serviço on-line</p>
-        </div>
-        <div>
-          <h4>Fórmulas Magistrais Chinesas</h4>
-          <h5>R$ 100,00 - 1 sessão</h5>
-          <p>São preparações obtidas a partir de matérias-primas; podem ser usadas de forma isolada ou como complemento da acupuntura ou outra técnica/tratamento;</p>
-        </div>
-      </router-link>
-
-      <br>
-      <br>
+            <img src='../../assets/img/formula.jpg' alt='' class='mini-profile'>
+            <p><i class="fa-solid fa-mobile-screen-button"></i> Serviço on-line</p>
+          </div>
+          <div>
+            <h4>Fórmulas Magistrais Chinesas</h4>
+            <h5>R$ 100,00 - 1 sessão</h5>
+            <p>São preparações obtidas a partir de matérias-primas; podem ser usadas de forma isolada ou como complemento da acupuntura ou outra técnica/tratamento;</p>
+          </div>
+      </div>
+      
     </div>
   </div>
 </template>
 <script>
-
 export default {
   scrollToTop: true,
   head: {
-    title: 'Terapias | Deep Acupuntura',
-    htmlAttrs: {
-      lang: 'pt-br'
-    },
+    title: 'Ventosaterapia| Terapias | Leandro Cesar',
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { hid: 'keywords', name: 'description', content: 'Acupuntura' },
-      { name: 'format-detection', content: 'telephone=no' },
-      { name: 'msapplication-TileColor', content: '#860d0d' },
-      { name: 'theme-color', content: '#860d0d' }
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Sobre Leandro Cesar Ramos da Costa, Personal Leandro Cesar, Professor Leandro Cesar',
+        name: 'msapplication-TileColor', content: '#860d0d',
+        name: 'theme-color', content: '#860d0d'
+      },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content: 'Personal, Personal Trainer, Niterói, São Gonçalo, Professor Leandro Cesar'
+      }
     ],
     link: [
-      { rel: 'apple-touch-icon', size: '180x180', href: '/img/MyLogoBoldFundo.png' },
-      { rel: 'icon', type: 'image/png', size: '32x32', href: '/img/MyLogoBoldFundo.png' },
-      { rel: 'icon', type: 'image/png', size: '16x16', href: '/img/MyLogoBoldFundo.png' },
+      { rel: 'icon', type: 'image/x-icon', href: '/img/favicon.ico' },
+      { rel: 'shortcut icon', type: 'image/x-icon', href: '/img/favicon.svg' },
+      { rel: 'apple-touch-icon', size: '180x180', href: '/img/apple-touch-icon.png' },
+      { rel: 'icon', type: 'image/png', size: '32x32', href: '/img/favicon-32x32.png' },
+      { rel: 'icon', type: 'image/png', size: '16x16', href: '/img/favicon-16x16.png' },
       { rel: 'apple-touch-icon', size: '180x180', href: '/img/apple-touch-icon.png' },
       { rel: 'manifest', href: '/img/site.webmanifest' },
-      { rel: 'mask-icon', href: '/img/safari-pinned-tab.svg', color: '#860d0d' }
-    ]
+      { rel: 'mask-icon', href: '/img/safari-pinned-tab.svg', color: '#002937' }
+    ],
   },
   data() {
-    return {
-      aplicar: '',
-      aplicarTwo: '',
-      aplicarTree: '',
-      aplicarFour: '',
-      aplicarFive: '',
-      aplicarSix: '',
-      aplicarSeven: '',
-      aplicarEight: true,
-      aplicarEduca: true,
-      aplicarAcupu: '',
-      acontecimentos: `
+      return {
+          aplicar : '',
+          aplicarTwo : '',
+          aplicarTree : '',
+          aplicarFour : '',
+          aplicarFive : '',
+          aplicarSix : '',
+          aplicarSeven : '',
+          aplicarEight : true,
+          aplicarEduca : true,
+          aplicarAcupu : '',
+          acontecimentos: `
         <h4 style="margin-left: 10px;">Personal | Consultoria | Avaliação Física | Krav-maga</h4>
           <ul class="com-bullet com-indent">
             <li>
@@ -152,20 +87,19 @@ export default {
           </ul>
           
           `,
-    }
+      }
   },
   methods: {
-    
-    doisUm() {
-      this.aplicar = true,
-        this.aplicarTwo = false,
-        this.aplicarTree = false,
-        this.aplicarFour = false,
-        this.aplicarFive = false,
-        this.aplicarSix = false,
-        this.aplicarSeven = false,
-        this.aplicarEight = false,
-        this.acontecimentos = `
+      doisUm() {
+          this.aplicar = true,
+          this.aplicarTwo = false,
+          this.aplicarTree = false,
+          this.aplicarFour = false,
+          this.aplicarFive = false,
+          this.aplicarSix = false,
+          this.aplicarSeven = false,
+          this.aplicarEight = false,
+          this.acontecimentos = `
         <h4 style="margin-left: 10px;"> Novembro</h4>
           <ul class="com-bullet com-indent">
             <li>
@@ -187,17 +121,17 @@ export default {
             </li>
           </ul>
           `
-    },
-    umOito() {
-      this.aplicar = false,
-        this.aplicarTwo = true,
-        this.aplicarTree = false,
-        this.aplicarFour = false,
-        this.aplicarFive = false,
-        this.aplicarSix = false,
-        this.aplicarSeven = false,
-        this.aplicarEight = false,
-        this.acontecimentos = `
+      },
+      umOito(){
+        this.aplicar = false,
+          this.aplicarTwo = true,
+          this.aplicarTree = false,
+          this.aplicarFour = false,
+          this.aplicarFive = false,
+          this.aplicarSix = false,
+          this.aplicarSeven = false,         
+         this.aplicarEight = false,
+          this.acontecimentos = `
         <h4 style="margin-left: 10px;">Novembro</h4>
           <ul class="com-bullet com-indent">
             <li>
@@ -205,18 +139,18 @@ export default {
             </li>
           </ul>
           `
-    },
-    umSete() {
-      this.aplicar = false,
-        this.aplicarTwo = false,
-        this.aplicarTree = true,
-        this.aplicarFour = false,
-        this.aplicarFive = false,
-        this.aplicarSix = false,
-        this.aplicarSeven = false,
-        this.aplicarEight = false,
-        this.acontecimentos =
-        `
+      },
+      umSete() {
+        this.aplicar = false,
+          this.aplicarTwo = false,
+          this.aplicarTree = true,
+          this.aplicarFour = false,
+          this.aplicarFive = false,
+          this.aplicarSix = false,
+          this.aplicarSeven = false,         
+         this.aplicarEight = false,
+          this.acontecimentos = 
+          `
           <h4 style="margin-left: 10px;">Março</h4>
         <ul class="com-bullet com-indent">
           <li>
@@ -224,18 +158,18 @@ export default {
           </li>
           </ul>
           `
-    },
-    umUm() {
-      this.aplicar = false,
-        this.aplicarTwo = false,
-        this.aplicarTree = false,
-        this.aplicarFour = true,
-        this.aplicarFive = false,
-        this.aplicarSix = false,
-        this.aplicarSeven = false,
-        this.aplicarEight = false,
-        this.acontecimentos =
-        `
+      },
+      umUm(){
+        this.aplicar = false,
+          this.aplicarTwo = false,
+          this.aplicarTree = false,
+          this.aplicarFour = true,
+          this.aplicarFive = false,
+          this.aplicarSix = false,
+          this.aplicarSeven = false,         
+         this.aplicarEight = false,
+          this.acontecimentos =
+          `
         <h4 style="margin-left: 10px;">Novembro</h4>
           <ul class="com-bullet com-indent">
             <li>
@@ -249,18 +183,18 @@ export default {
             </li>
           </ul>
           `
-    },
-    zeroOito() {
-      this.aplicar = false,
-        this.aplicarTwo = false,
-        this.aplicarTree = false,
-        this.aplicarFour = false,
-        this.aplicarFive = true,
-        this.aplicarSix = false,
-        this.aplicarSeven = false,
-        this.aplicarEight = false,
-        this.acontecimentos =
-        `
+      },
+      zeroOito(){
+        this.aplicar = false,
+          this.aplicarTwo = false,
+          this.aplicarTree = false,
+          this.aplicarFour = false,
+          this.aplicarFive = true,
+          this.aplicarSix = false,
+          this.aplicarSeven = false,         
+         this.aplicarEight = false,
+          this.acontecimentos =
+          `
         <h4 style="margin-left: 10px;">Fevereiro</h4>
           <ul class="com-bullet com-indent">
             <li>
@@ -268,18 +202,18 @@ export default {
             </li>
           </ul>
           `
-    },
-    zeroCinco() {
-      this.aplicar = false,
-        this.aplicarTwo = false,
-        this.aplicarTree = false,
-        this.aplicarFour = false,
-        this.aplicarFive = false,
-        this.aplicarSix = true,
-        this.aplicarSeven = false,
-        this.aplicarEight = false,
-        this.acontecimentos =
-        `
+      },
+      zeroCinco() {
+        this.aplicar = false,
+          this.aplicarTwo = false,
+          this.aplicarTree = false,
+          this.aplicarFour = false,
+          this.aplicarFive = false,
+          this.aplicarSix = true,
+          this.aplicarSeven = false,         
+         this.aplicarEight = false,
+          this.acontecimentos =
+          `
         <h4 style="margin-left: 10px;">Fevereiro</h4>
           <ul class="com-bullet com-indent">
             <li>
@@ -287,18 +221,18 @@ export default {
             </li>
           </ul>
           `
-    },
-    oitoSeis() {
-      this.aplicar = false,
-        this.aplicarTwo = false,
-        this.aplicarTree = false,
-        this.aplicarFour = false,
-        this.aplicarFive = false,
-        this.aplicarSix = false,
-        this.aplicarSeven = true,
-        this.aplicarEight = false,
-        this.acontecimentos =
-        `
+      },
+      oitoSeis () {
+        this.aplicar = false,
+          this.aplicarTwo = false,
+          this.aplicarTree = false,
+          this.aplicarFour = false,
+          this.aplicarFive = false,
+          this.aplicarSix = false,
+          this.aplicarSeven = true,         
+         this.aplicarEight = false,
+          this.acontecimentos = 
+          `
         <h4 style="margin-left: 10px;">Outubro</h4>
           <ul class="com-bullet com-indent">
             <li>
@@ -306,18 +240,18 @@ export default {
             </li>
           </ul>
           `
-    },
-    doisDois() {
-      this.aplicar = false,
-        this.aplicarTwo = false,
-        this.aplicarTree = false,
-        this.aplicarFour = false,
-        this.aplicarFive = false,
-        this.aplicarSix = false,
-        this.aplicarSeven = false,
-        this.aplicarEight = true,
-        this.acontecimentos =
-        `
+      },
+      doisDois () {
+        this.aplicar = false,
+          this.aplicarTwo = false,
+          this.aplicarTree = false,
+          this.aplicarFour = false,
+          this.aplicarFive = false,
+          this.aplicarSix = false,
+          this.aplicarSeven = false,
+          this.aplicarEight = true,
+          this.acontecimentos = 
+          `
           <h4 style="margin-left: 10px;">Fevereiro</h4>
           <ul class="com-bullet com-indent">
             <li>
@@ -340,12 +274,12 @@ export default {
             </li>
           </ul>
           `
-    },
-    educa() {
-      this.aplicarEduca = true,
+      },
+      educa () {
+        this.aplicarEduca = true,
         this.aplicarAcupu = false,
-        this.projetos =
-        `
+          this.projetos = 
+          `
           <h4 style="margin-left: 10px;">Personal | Consultoria</h4>
         <h5 style="text-align: left; margin:0; color: #ffffff90">Ativo</h5>
           <ul class="com-bullet com-indent">
@@ -363,12 +297,12 @@ export default {
           </ul>
           <br>
           `
-    },
-    acupu() {
-      this.aplicarAcupu = true,
+      },
+      acupu () {
+        this.aplicarAcupu = true,
         this.aplicarEduca = false,
-        this.projetos =
-        `
+          this.projetos = 
+          `
           <h4 style="margin-left: 10px;">Deep Acupuntura</h4>
         <h5 style="text-align: left; margin:0; color: #ffffff90">Em Desenvolvimento</h5>
           <ul class="com-bullet com-indent">
@@ -378,12 +312,12 @@ export default {
           </ul>
           <br>
           `
-    }
+      }
   }
 } 
 </script>
 <style scoped>
-body {
+  body {
   background: #fff;
   font-family: 'Philosopher', sans-serif;
   color: #aaa;
@@ -394,7 +328,7 @@ iframe {
   margin-left: 10px;
 }
 
-a {
+a{
   text-decoration: none;
   color: #aaa;
 }
@@ -410,27 +344,27 @@ code {
   margin-left: 15px;
   padding-left: 10px;
   border-left: solid 5px #eee;
-  color: #888;
+  color:#888;
 }
 
 .divider {
-  height: 15px;
+  height:15px;
   background-color: #dddddd54;
 }
 
-.nav-one {
+.nav-one{
   height: 35px;
   position: sticky;
   top: -1px;
 }
 
-.nav-one div {
+.nav-one div{
   display: flex;
   justify-content: flex-end;
   flex-direction: row;
 }
 
-.nav-one a {
+.nav-one a{
   text-decoration: none;
   margin: 0 14px 0 6px;
   font-size: 1.2em;
@@ -447,8 +381,8 @@ code {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  padding: 10px 0 5px 0;
-  color: black;
+  padding:10px 0 5px 0;
+  color:black;
 }
 
 .profile a {
@@ -476,7 +410,7 @@ code {
   color: #aaa;
 }
 
-.main-one {
+.main-one{
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -488,18 +422,17 @@ code {
   margin: 0 0 0 15px;
 }
 
-.main-one a:nth-child(1) i,
-.main-one a:nth-child(2) i {
+.main-one a:nth-child(1) i, .main-one a:nth-child(2) i{
   padding-right: 4px;
   margin: 0 0 0 3px;
 }
 
-.main-one a:nth-child(3) i {
+.main-one a:nth-child(3) i{
   padding-right: 2px;
   margin: 0 0 0 2px;
 }
 
-.main-one a {
+.main-one a{
   margin: 0 0 0 10px;
   color: #555;
 }
@@ -510,7 +443,7 @@ code {
   flex-direction: column;
   padding: 15px 0 15px 0;
   color: black;
-  box-shadow: 4px 4px 10px #bbb;
+  box-shadow:  4px 4px 10px #bbb;
 }
 
 .main-tree {
@@ -519,7 +452,7 @@ code {
   flex-direction: column;
   margin: -10px 0 0 0;
   color: #555;
-  overflow-x: auto;
+  overflow-x:auto;
 }
 
 .main-tree i {
@@ -527,7 +460,7 @@ code {
   color: #555;
 }
 
-.main-tree h5 {
+.main-tree h5{
   margin-left: 10px;
 }
 
@@ -535,19 +468,19 @@ code {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  margin: -10px 0 0 0;
-  padding: 0 0 15px 0;
-  color: #fff;
-  background-color: #860d0d;
-  box-shadow: 0px 10px 5px #e23a28;
-  overflow-x: auto;
+  margin: -5px 0 0 0;
+  padding: 10px 0 10px 0;
+  color: #fff;  
+  background-color: #860d0d;  
+  box-shadow: 0px 10px 5px #fff;
+  overflow-x:auto;
   display: flex;
   justify-content: flex-start;
   flex-direction: collumn;
 }
 
 .main-four img {
-  height: 70px;
+    height: 70px;
   border-radius: 50%;
   margin-left: 10px;
   padding: 0 25px 0 0;
@@ -558,17 +491,16 @@ code {
   color: #fff;
 }
 
-.main-four h4 {
+.main-four h4{
   margin: 10px 0 0 10px;
-  color: #fff;
+  color:#fff;
 }
 
-.main-four h5:nth-child(1) {
-  margin: 15px auto 5px auto;
+.main-four h5:nth-child(1){
+  margin: 0px auto 5px auto;
   color: #fff;
 }
-
-.main-four h5 {
+.main-four h5{
   margin: 0px 10px 0px 10px;
   color: green;
 }
@@ -577,7 +509,7 @@ code {
   border-radius: 3% 3% 3% 3%;
 }
 
-.main-four-card {
+.main-four-card  {
   margin: 0px 10px 20px 10px;
   border: solid .1px #dddddd54;
   display: flex;
@@ -587,37 +519,33 @@ code {
 
 .main-four p {
   padding: 0px;
-  margin: 10px 0 10px 10px;
+  margin: 10px 0 10px 10px ;
   font-size: .9em;
 }
 
 .main-four .mini-profile {
   height: 6em;
-  border-radius: 50%;
-  margin: 10px 10px 0 10px;
-  padding: 0 15px 0 0;
-}
+border-radius: 50%;
+margin: 10px 10px 0 10px;
+padding: 0 15px 0 0;
+} 
 
 .main-five {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   margin: -10px 0 0 0;
-  color: #fff;
-  background-color: #860d0d;
-  overflow-x: auto;
-  height: 900px;
+  color: #fff;  
+  background-color: #860d0d;  
+  overflow-x:auto;
+  height: 500px;
   display: flex;
   justify-content: flex-start;
   flex-direction: collumn;
 }
 
-.main-five a p {
-  color: #fff;
-}
-
 .main-five img {
-  height: 70px;
+    height: 70px;
   border-radius: 50%;
   margin-left: 10px;
   padding: 0 25px 0 0;
@@ -628,26 +556,24 @@ code {
   color: #fff;
 }
 
-.main-five h4 {
+.main-five h4{
   margin: 10px 0 0 10px;
-  color: #fff;
+  color:#fff;
 }
 
-.main-five h5:nth-child(1) {
+.main-five h5:nth-child(1){
   margin: 0px auto 5px auto;
   color: #fff;
 }
-
-.main-five h5 {
+.main-five h5{
   margin: 0px 10px 0px 10px;
   color: #7FFFD4;
 }
-
 .main-five div {
   border-radius: 3% 3% 3% 3%;
 }
 
-.main-five-card {
+.main-five-card  {
   margin: 0px 10px 20px 10px;
   border: solid .1px #dddddd54;
   display: flex;
@@ -657,34 +583,37 @@ code {
 
 .main-five p {
   padding: 0px;
-  margin: 10px 0 10px 10px;
+  margin: 10px 0 10px 10px ;
   font-size: .9em;
 }
 
 .main-five .mini-profile {
   height: 6em;
-  border-radius: 50%;
-  margin: 10px 5px 0 10px;
-  padding: 0 5px 0 0;
-}
+border-radius: 50%;
+margin: 10px 10px 0 10px;
+padding: 0 15px 0 0;
+} 
 
 .mini-profile {
   height: 25px;
-  border-radius: 50%;
-  margin: 10px 0 0 0px;
-  padding: 0 15px 0 0;
+border-radius: 50%;
+margin: 10px 0 0 0px;
+padding: 0 15px 0 0;
 }
 
 .dateYear {
-  color: #ccc;
-  padding: 0 10px 0 10px;
+    color: #ccc;
+    padding: 0 10px 0 10px;
 }
 
 .dateYearHover {
-  color: #000;
-  border-bottom: solid .2px #000;
-  padding: 0 10px 0 10px;
+    color: #000;
+    border-bottom: solid .2px #000;
+    padding: 0 10px 0 10px;
 }
 
-@media only screen and (max-width: 369px) {}
+@media only screen and (max-width: 369px) {
+
+  }
+
 </style>

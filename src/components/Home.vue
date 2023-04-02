@@ -5,27 +5,24 @@
         <div class='main-tree'>
           <br>
           <div>
-            <h5 class='hCincoTwo' style='margin-right: 10px;'>Indicações</h5>
+            <h5 class='hCincoTwo' style='margin-right: 10px;'>Indicado para tratar:</h5>
           </div>
           <div class='main-l-trat'>
             <h4 @click='ansiedade()' class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rAnsiedade'></h4>
             <h4 @click='depressao()' class='dot-index' :class='{ selectTitleHover: aplicarTwo }' v-html='rDepressao'></h4>
             <h4 @click='estresse()' class='dot-index' :class='{ selectTitleHover: aplicarFive }' v-html='rEstresse'></h4>
-            <h4 @click='cervicalgia()' class='dot-index' :class='{ selectTitleHover: aplicarTree }' v-html='rCervicalgia'>
-            </h4>
+            <h4 @click='cervicalgia()' class='dot-index' :class='{ selectTitleHover: aplicarTree }' v-html='rCervicalgia'></h4>
             <h4 @click='lombalgia()' class='dot-index' :class='{ selectTitleHover: aplicarFour }' v-html='rLombalgia'></h4>
             <h4 @click='enxaqueca()' class='dot-index' :class='{ selectTitleHover: aplicarSix }' v-html='rEnxaqueca'></h4>
             <h4 @click='cefaleia()' class='dot-index' :class='{ selectTitleHover: aplicarSeven }' v-html='rCefaleia'></h4>
-            <h4 @click='baixaImunidade()' class='dot-index' :class='{ selectTitleHover: aplicarEight }'
-              v-html='rBaixaImunidade'></h4>
+            <h4 @click='baixaImunidade()' class='dot-index' :class='{ selectTitleHover: aplicarEight }' v-html='rBaixaImunidade'></h4>
             <h4 @click='burnOut()' class='dot-index' :class='{ selectTitleHover: aplicarNine }' v-html='rBurnout'></h4>
             <h4 @click='laringite()' class='dot-index' :class='{ selectTitleHover: aplicarTen }' v-html='rLaringite'></h4>
             <h4 @click='insonia()' class='dot-index' :class='{ selectTitleHover: aplicarEleven }' v-html='rInsonia'></h4>
             <h4 @click='zumbido()' class='dot-index' :class='{ selectTitleHover: aplicarTwelve }' v-html='rZumbido'></h4>
-            <h4 @click='labirintite()' class='dot-index' :class='{ selectTitleHover: aplicarThirteen }'
-            v-html='rLabirintite'></h4>
-            <h4 @click='sinusite()' class='dot-index' :class='{ selectTitleHover: aplicarFourteen }' v-html='rSinusite'>
-            </h4>
+            <h4 @click='labirintite()' class='dot-index' :class='{ selectTitleHover: aplicarThirteen }' v-html='rLabirintite'></h4>
+            <h4 @click='sinusite()' class='dot-index' :class='{ selectTitleHover: aplicarFourteen }' v-html='rSinusite'></h4>
+            <a class='dot-index' :class='{ selectTitleHover: aplicarFourteen }'>Outros</a>
             <div class="hr"></div>
             <!--Distúrbios ginecológicos
               Distúrbios gastrointestinais
@@ -42,6 +39,9 @@
       </a>
       <a href="https://agenda.deepacupuntura.com">
         <i class="fa-solid fa-calendar-plus"></i> Agenda
+      </a>
+        <a href="tel:+21935003822">
+        <i class="fa-solid fa-phone-flip fa-shake"></i> Ligar
       </a>
     </div>
 

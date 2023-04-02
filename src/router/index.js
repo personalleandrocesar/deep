@@ -30,6 +30,7 @@ const router = createRouter({
         {path: 'auriculoterapia', component: ()=> import('../views/terapias/auriculoterapia.vue') },
         {path: 'craniopuntura', component: ()=> import('../views/terapias/craniopuntura.vue') },
         {path: 'ventosaterapia', component: ()=> import('../views/terapias/ventosaterapia.vue') },
+        {path: 'formulas', component: ()=> import('../views/terapias/formulas.vue') },
     ]
     },
     {

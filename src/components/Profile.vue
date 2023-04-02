@@ -37,19 +37,16 @@
                     <RouterLink to="">Acupuntura Sistêmica</RouterLink>
                 </div>
                 <div class='homeTwoDot'>
-                    <RouterLink to="">Craniopuntura</RouterLink>
-                </div>
-                <div class='homeTwoDot'>
                     <RouterLink to="">Auriculoterapia</RouterLink>
                 </div>
                 <div class='homeTwoDot'>
                     <RouterLink to="">Ventosaterapia</RouterLink>
                 </div>
                 <div class='homeTwoDot'>
-                    <RouterLink to="">Gua Sha</RouterLink>
+                    <RouterLink to="">Craniopuntura</RouterLink>
                 </div>
                 <div class='homeTwoDot'>
-                    <RouterLink to="">Fórmulas Magistrias Chinesas</RouterLink>
+                    <RouterLink to="">Fórmulas Magistrais Chinesas</RouterLink>
                 </div>
                 <!--
                   // <div @click='acupuntura()' class='homeTwoDot' :class='{ selectTitle: aplicarAcu }'>Acupuntura Sistêmica</div>
