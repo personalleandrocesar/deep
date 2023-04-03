@@ -226,9 +226,6 @@ code {
     align-self: center;
 }
 
-.main-four-card a {
-
-}
 
 .main-four-card a {
     cursor: pointer;
