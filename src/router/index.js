@@ -18,6 +18,22 @@ const router = createRouter({
       component: () => import('../views/sobre.vue')
     },
     {
+      path: '/sindromes',
+      name: 'sindromes',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/sindromes.vue'),
+      children: [ 
+        { path: '', name: 'indexSindromes', component:  ()=> import('../views/sindromes/index.vue') },
+        {path: 'ansiedade', component: ()=> import('../views/sindromes/ansiedade.vue') },
+        {path: 'lombalgia', component: ()=> import('../views/sindromes/lombalgia.vue') },
+        {path: 'burnout', component: ()=> import('../views/sindromes/burnout.vue') },
+        {path: 'depressao', component: ()=> import('../views/sindromes/depressao.vue') },
+        {path: 'estresse', component: ()=> import('../views/sindromes/estresse.vue') },
+    ]
+    },
+    {
       path: '/terapias',
       name: 'terapias',
       // route level code-splitting

@@ -4,17 +4,16 @@
 
         <div class='main-tree'>
             <div>
-                <h5><i class="fa-solid fa-yin-yang"></i> Terapias</h5>
+                <h5><i class="fa-solid fa-notes-medical"></i> Síndromes</h5>
             </div>
         </div>
         <div class='main-four'>
             <div class='main-four-card'>
-                <RouterLink to="/terapias">Todas</RouterLink >
-                <RouterLink to="/terapias/acupuntura">Acupuntura</RouterLink >
-                    <RouterLink to="/terapias/auriculoterapia">Auriculoterapia</RouterLink >
-                    <RouterLink to="/terapias/ventosaterapia">Ventosaterapia</RouterLink >
-                        <RouterLink to="/terapias/craniopuntura">Crâniopuntura</RouterLink >
-                        <RouterLink to="/terapias/formulas">Fórmulas</RouterLink >
+                <RouterLink to="/sindromes/ansiedade">Ansiedade</RouterLink >
+                    <RouterLink to="/sindromes/burnout">Burnout</RouterLink >
+                    <RouterLink to="/sindromes/depressao">Depressão</RouterLink >
+                        <RouterLink to="/sindromes/estresse">Estresse</RouterLink >
+                        <RouterLink to="/sindromes/lombalgia">Lombalgia</RouterLink >
             </div>
         </div>
 
@@ -217,19 +216,40 @@ code {
 }
 
 .main-four-card {
-    margin: -10px 0 10px 10px;
-    height: 50px;
+    width: 95%;
+    text-align: left;
+    margin: 10px auto 20px auto;
     display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
 }
 
 .main-four-card a {
-    border: solid .1px #dddddd54;
-    padding: 2px 6px;
-    margin: 10px 4px;
-    border-radius: 0% 10% 10% 10%;
+
 }
+
+.main-four-card a {
+    cursor: pointer;
+    transition: all .3s ease-in;
+    background-color: #d8d8d840;
+    margin: 10px 16px;
+    padding: 10px;
+    font-size: .6em;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5% 4% 15%;
+    border: solid 0.5px;
+        margin: 6px 3px;
+    padding: 4px;
+    font-size: .7em;
+}
+.main-four-card a:hover {
+        color: #fff;
+    border: solid 0.5px #e23a28;
+}
+
 
 .main-four-card span {
     position: relative;

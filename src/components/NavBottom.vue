@@ -19,6 +19,10 @@ export default {
         <i class="fa-solid fa-yin-yang"></i>
         <h5>TERAPIAS</h5>
       </RouterLink >
+      <RouterLink to='/sindromes' @click.native="scrollToTop()">
+        <i class="fa-solid fa-notes-medical"></i>
+        <h5>SÍNDROMES</h5>
+      </RouterLink >
       <RouterLink to='/blog' @click.native="scrollToTop()">
         <i class="fa-solid fa-blog"></i>
         <h5>BLOG</h5>
