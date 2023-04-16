@@ -34,9 +34,14 @@
         <i class="fa-brands fa-instagram-square"></i> Instagram
       </a>
 
-      <a href="mailto:email@deepacupuntura.com">
-        <i class="fa-solid fa-at"></i> E-mail
+      <a href="https://api.whatsapp.com/send?phone=5521935003822%20&text=Ol%C3%A1,%20fiquei%20interessado(a)%20nos%20seus%20servi%C3%A7os,%20me%20chamo%20">
+        <i class="fa-brands fa-square-whatsapp"></i> WhatsApp
       </a>
+      <!--
+        <a href="mailto:email@deepacupuntura.com">
+          <i class="fa-solid fa-at"></i> E-mail
+        </a>
+      -->
       <a href="https://agenda.deepacupuntura.com">
         <i class="fa-solid fa-calendar-plus"></i> Agenda
       </a>

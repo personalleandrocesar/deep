@@ -1323,7 +1323,7 @@ a.nuxt-link-exact-active {
     font-size: 1em;
     margin: auto;
     font-weight: bold;
-    color: #dbd1d1;
+    color: #efc289;
 }
 
 .homeTwoDot:hover {
