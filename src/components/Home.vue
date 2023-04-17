@@ -955,15 +955,16 @@ code {
   padding: 5px 0 3px 0;
   font-size: 14px;
   color: #ddd;
-  border: solid .1px #ffffff70;
+  border: solid .5px ;
   border-radius: 5% 4% 15%;
   transition: all .3s linear;
+    background-color: #d8d8d840;
+
 }
 .main-one a:hover {
-  background-color: #d8d8d840;
-  border: solid .1px #e23a28;
   color: #fff;
-  font-weight: bolder;
+  border: solid .5px #e23a28;
+  text-shadow: -1px 1px 10px #fff;
 }
 
 .main-two {
