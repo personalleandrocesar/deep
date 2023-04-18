@@ -208,7 +208,7 @@ h1 {
   font-size: 1.1em;
   margin: 20px 0 0 10px;
   line-height: 1.1;
-  color: #fff;
+  color: #efc289;
 }
 
 h4 {

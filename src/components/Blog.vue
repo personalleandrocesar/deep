@@ -315,7 +315,7 @@ p {
 }
 
 .post a {
-    color: #e23a28;
+    color: #6f5855;
 }
 
 .postTitle {
@@ -328,12 +328,16 @@ p {
 }
 
 .postTitleHover {
-    color: #e23a28;
+    color: #efc289;
 
 }
 
 .postTitleHover:hover {
-    text-decoration: none;
+    text-decoration: underline;
+    text-shadow: -2px 2px 5px #efc28940,
+  -2px -2px 5px #efc28940,
+  2px 2px 5px #efc28940,
+  2px -2px 5px #efc28940;
 
 }
 
