@@ -42,7 +42,7 @@
           <i class="fa-solid fa-at"></i> E-mail
         </a>
       -->
-      <a href="https://agenda.deepacupuntura.com">
+      <a href="https://calendar.app.google/14KVTXGzLr1tht5Q6">
         <i class="fa-solid fa-calendar-plus"></i> Agenda
       </a>
         <a href="tel:+21935003822">
@@ -53,9 +53,9 @@
 
     <!-- <div class='divider'></div> -->
 
-    
+
   </div>
-  <!-- 
+  <!--
     <div id='main-white'><br>
       <h4 style='text-transform: uppercase;'>2002:</h4>
       <h5 class='clientesGraph'>25 clientes</h5>
@@ -65,10 +65,10 @@
       <div class="clientesGraph"></div>
       <br>
     </div>
-    
+
   -->
     <div class='hr'></div>
-    
+
     <div class='main-tree'>
       <div>
         <h5><i class="fa-solid fa-map-location"></i> Localização</h5>
